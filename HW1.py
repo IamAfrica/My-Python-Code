@@ -1,7 +1,8 @@
 # Jordan Darling made this 1/18/16
 # Create a recipe convertor with an adjustible factor
+# Float() is required to convert a string into the floating point number which is necessary for decimals.
 
-print "-- ORIGINAL RECIPE --";
+print "--- ORIGINAL RECIPE ---";
 
 print "Enter the amount of flour (cups):",
 flour = raw_input()
@@ -18,7 +19,7 @@ yeast = raw_input()
 print "Enter the loaf adjustment factor (e.g. 2.0 double the size):",
 factor = raw_input()
 
-print "-- MODIFIED RECIPE --"
+print "--- MODIFIED RECIPE ---"
 
 print "Breadflour: %.2f cups" % (float(flour)*float(factor))
 
