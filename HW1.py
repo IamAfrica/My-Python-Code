@@ -4,7 +4,7 @@
 print "-- ORIGINAL RECIPE --";
 
 print "Enter the amount of flour (cups):",
-flour = float (raw_input())
+flour = raw_input()
 
 print "Enter the amount of water (cups):",
 water = raw_input()
@@ -20,12 +20,12 @@ factor = raw_input()
 
 print "-- MODIFIED RECIPE --"
 
-print "Breadflour: %.2f cups" % (int(flour)*int(factor))
+print "Breadflour: %.2f cups" % (float(flour)*float(factor))
 
-print "Water: %.2f cups" % (int(water)*int(factor))
+print "Water: %.2f cups" % (float(water)*float(factor))
 
-print "Salt: %.2f teaspoons" % (int(salt)*int(factor))
+print "Salt: %.2f teaspoons" % (float(salt)*float(factor))
 
-print "Yeast: %.2f teaspoons" % (int(yeast)*int(factor))
+print "Yeast: %.2f teaspoons" % (float(yeast)*float(factor))
 
 print "HAPPY CODING!"
