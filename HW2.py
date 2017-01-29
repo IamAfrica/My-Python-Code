@@ -1,5 +1,6 @@
+#Jordan Darling made this 1/28/16
+#Using functions, for loops, and lists to create a song
 import Rad
-
 
 songPt1 = [Rad.userString("Enter the first verse:"), Rad.userString("Enter the second verse:"), Rad.userString("Enter the third verse:"), Rad.userString("Enter the fourth verse:"),]
 songPt2 = Rad.userString("Enter the chorus:" ) + " "
@@ -23,5 +24,6 @@ final.insert(16, chorus + songPt2)
 
 print final
 
+#This prints out the lyrics without the list part
 for lyrics in final:
     print lyrics
