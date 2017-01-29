@@ -27,6 +27,6 @@ print "Water: %.2f cups" % (float(water)*float(factor))
 
 print "Salt: %.2f teaspoons" % (float(salt)*float(factor))
 
-print "Yeast: %.2f teaspoons" % (float(yeast)*float(factor))
+print "Yeast: %.2f teaspoons" % ((float(yeast)*float(factor))*5.56)
 
 print "HAPPY CODING!"
