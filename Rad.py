@@ -19,4 +19,3 @@ def userFloat(prompt):
 def chorus(prompt):
     print prompt,
     
-    return
