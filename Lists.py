@@ -1,4 +1,3 @@
-
 dayCourses = ['Yoga', 'Calc 3', 'History']
 eveCourses = ['Python']
 allCourses = dayCourses + eveCourses

@@ -1,0 +1,15 @@
+Foo Fighters: Boston
+Red Hot Chili Peppers: LA
+Genesis: NYC
+Type 0 Negative: Chicago
+Def Leppard: Boston
+Styx: LA
+Poison: LA
+Huey Lewis: Chicago
+Iron Maiden: LA
+Blink 182: Boston
+Sum 41: LA
+Green Day: NYC
+Foo Fighters: LA
+Red Hot Chili Peppers: NYC
+Red Hot Chili Peppers: Chicago
