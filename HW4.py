@@ -2,22 +2,13 @@
 #Using dictionaries to count birds
 import Rad
 
-# ------------------------------------------------------------
-# Reads the specified file (filename) and returns a dictionary 
-# whose keys are bird names and whose values are the number of 
-# times the bird has been seen. 
-# ------------------------------------------------------------
 def countBirds(dictionary):
     for line in open("Birds.txt"):
         temp = line.split(',')
         name = temp[0].strip()
         number = temp[1].strip()
         dictionary[name] = int(dictionary[name]) + int(number)
-# ------------------------------------------------------------
-# Asks the user to enter a bird name and then looks up 
-# the sighting count for that bird in the specified 
-# dictionary (d). 
-# ------------------------------------------------------------
+
 def askUser(dictionary):
     birdName = Rad.userString("Enter a bird name:")
     if birdName in dictionary:
