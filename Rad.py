@@ -16,5 +16,7 @@ def userFloat(prompt):
     s = float(raw_input())
     return s
     
-def chorus(prompt):
+def userList(prompt):
     print prompt,
+    l = raw_input().split(',')
+    return l
