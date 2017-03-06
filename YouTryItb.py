@@ -4,7 +4,7 @@ def readFlavors(flav):
     file = open('flav.txt', 'r')
     final = []
     for flavor in file:
-        final.append(flavor.strip())
+        final.append(flavor.strip)
     return final
 
 def countInStock(instock, flavors):
