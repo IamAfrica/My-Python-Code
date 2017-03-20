@@ -1,7 +1,8 @@
+#Jordan Darling made this 3/19/17
+#Using randomization, lists, and loops to make a game
+
 import Rad
 import random
-
-
 
 def cards(choices):
     attempts = 1
