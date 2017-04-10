@@ -1,0 +1,5 @@
+[
+{"Name" : "Tom Smith", "Email" : ["tom@smith.com"], "Phone" : "111-111-1111"},
+{"Name" : "Sally Jones", "Email" : ["sally@jones.com", "Greg@Greg.Greg"], "Phone" : "222-222-2222"},
+{"Name" : "Eddie Works", "Email" : "eddie@works.com", "Phone" : "222-222-2222"}
+]
